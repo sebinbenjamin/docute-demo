@@ -13,20 +13,30 @@
   <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
   <script>
     new Docute({
+      sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@master',
       overrides: {
         '/': {
           language: 'English'
         },
+        'v3': {
+          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v3/',
+        },
+        'v2': {
+          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v2/',
+        },
+        'v1': {
+          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v1/',
+        },
       },
       versions: {
-        // 'v3': {
-        //   link: '/',
-        // },
-        // 'v2': {
-        //   link: '/',
-        // },
-        'v1': {
+        'v3': {
           link: '/',
+        },
+        'v2': {
+          link: '/v2/',
+        },
+        'v1': {
+          link: '/v1/',
         },
       },
       sidebar: [
