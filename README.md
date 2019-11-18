@@ -1,3 +1,3 @@
 # Version 4
 
-https://sebinbenjamin.github.io/docute-demo/#/
+https://docute-demo.netlify.com

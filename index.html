@@ -13,28 +13,33 @@
   <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
   <script>
     new Docute({
-      sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@master/',
+      sourcePath: 'https://raw.githubusercontent.com/sebinbenjamin/docute-demo/master/',
       overrides: {
         '/': {
           language: 'English'
         },
-        'v4': {
-          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v4/',
+        // /v4/ TOO DOES NOT WORK
+        // '/v4/': {
+        //   sourcePath: 'https://raw.githubusercontent.com/sebinbenjamin/docute-demo/v4/',
+        // }, 
+        '/v3/': {
+          sourcePath: 'https://raw.githubusercontent.com/sebinbenjamin/docute-demo/v3/',
         },
-        'v3': {
-          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v3/',
+        '/v2/': {
+          sourcePath: 'https://raw.githubusercontent.com/sebinbenjamin/docute-demo/v2/',
         },
-        'v2': {
-          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v2/',
-        },
-        'v1': {
-          sourcePath: 'https://cdn.jsdelivr.net/gh/sebinbenjamin/docute-demo@v1/',
+        '/v1/': {
+          sourcePath: 'https://raw.githubusercontent.com/sebinbenjamin/docute-demo/v1/',
         },
       },
       versions: {
         'v4': {
           link: '/',
         },
+        // DOES NOT WORK
+        // 'v4': {
+        //   link: '/v4/',
+        // },
         'v3': {
           link: '/v3/',
         },
